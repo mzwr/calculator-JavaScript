@@ -29,6 +29,7 @@ article{
 .opirations{
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 100px));
+  gap: 5px 5px;
 }
 button{
   background-color: rgb(235, 235, 235);
@@ -53,6 +54,7 @@ button:active{
 }
 @media (max-width:500px) {
   article{
+    width: 260px;
     margin: 0px 20px;
     padding: 5px;
   }
